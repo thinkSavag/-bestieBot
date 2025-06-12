@@ -1,0 +1,48 @@
+# Ignore local IDE clutter
+# For projects involving multiple personas or GPT-driven modules, consider:
+.DS_Store
+.vscode/
+
+# Auto-ignore all temp files except what’s tracked
+*.log
+*.tmp
+*.bak
+
+# Ignore everything by default
+*
+
+# Always allow these baseline files
+!.gitignore
+!README.md
+!ABOUT.md
+
+# Media
+!media
+!media/bestiebot-laptop-moment.png
+
+# Meta
+!meta/recursion_glossary.md
+!meta/structure_index.md
+
+# Shared 
+!system/assigned_roles.json  
+!system/role_orchestration_map.json 
+
+# System
+!system/locked_signals.md 
+!system/mode_definitions.json
+!system/routing_protocols.json
+
+# Include GitHub config directory (branch rules, workflows, etc.)
+!.github/
+!.github/rulesets/
+!.github/rulesets/branch-protection-ruleset.json
+!.github/pull_request_template.md
+!.github/Security.md
+
+# TEMP: Hide these
+
+
+
+# 🧠 Future Tip
+# If you ever onboard a contributor or archive these profiles, keep this folder organization + gitignore setup as a template repo. Just rename it, reset the README.md, and retain everything else as a logic workspace pattern. 🔁🧩
